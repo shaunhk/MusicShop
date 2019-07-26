@@ -22,4 +22,8 @@ public class Guitar extends Instrument {
     public int getNumberOfStrings() {
         return this.strings;
     }
+
+    public InstrumentType getType() {
+        return  this.type;
+    }
 }

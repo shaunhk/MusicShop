@@ -48,4 +48,9 @@ public class DrumsTest {
     public void getNumberOfDrums(){
         assertEquals(12, drums.getNumberOfDrums());
     }
+
+    @Test
+    public void canGetType(){
+        assertEquals(InstrumentType.PERCUSSION, drums.getType());
+    }
 }

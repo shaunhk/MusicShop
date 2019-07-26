@@ -48,4 +48,19 @@ public class GuitarTest {
     public void hasStrings(){
         assertEquals(6, guitar.getNumberOfStrings());
     }
+
+    @Test
+    public void canGetColour(){
+        assertEquals(InstrumentColour.BLACK, guitar.getColour());
+    }
+
+    @Test
+    public void canGetMake(){
+        assertEquals(InstrumentMake.GIBSON, guitar.getMake());
+    }
+
+    @Test
+    public void canGetType(){
+        assertEquals(InstrumentType.STRING, guitar.getType());
+    }
 }

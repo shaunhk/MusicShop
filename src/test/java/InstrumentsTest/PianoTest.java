@@ -48,4 +48,9 @@ public class PianoTest {
     public void hasKeys(){
         assertEquals(60, piano.getNumberOfKeys());
     }
+
+    @Test
+    public void canGetType(){
+        assertEquals(InstrumentType.STRING, piano.getType());
+    }
 }

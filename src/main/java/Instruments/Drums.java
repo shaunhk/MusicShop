@@ -22,4 +22,8 @@ public class Drums extends Instrument {
     public int getNumberOfDrums() {
         return this.drums;
     }
+
+    public InstrumentType getType() {
+        return type;
+    }
 }

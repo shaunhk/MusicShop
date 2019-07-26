@@ -10,10 +10,6 @@ public class Shop {
         this.stock = new ArrayList<Sell>();
     }
 
-    public ArrayList<Sell> getStock() {
-        return this.stock;
-    }
-
     public int getStockAmount(){
         return this.stock.size();
     }

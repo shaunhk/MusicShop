@@ -15,6 +15,10 @@ public class Piano extends Instrument {
         this.keys = keys;
     }
 
+    public InstrumentType getType() {
+        return this.type;
+    }
+
     public String play() {
         return "Plink plink";
     }

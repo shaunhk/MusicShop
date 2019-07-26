@@ -3,7 +3,6 @@ package Instruments;
 import Behaviours.IPlay;
 import Instruments.InstrumentsEnums.InstrumentColour;
 import Instruments.InstrumentsEnums.InstrumentMake;
-import Instruments.InstrumentsEnums.InstrumentType;
 import OtherAbstractClasses.Sell;
 
 public abstract class Instrument extends Sell implements IPlay {
