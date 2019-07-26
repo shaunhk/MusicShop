@@ -41,4 +41,12 @@ public class ShopTest {
         shop.removeStock(guitar);
         assertEquals(0, shop.getStockAmount());
     }
+
+    @Test
+    public void canCalculateProfitTotal(){
+        shop.addStock(guitar);
+        shop.addStock(piano);
+        shop.addStock(strings);
+        assertEquals(442.99, shop.getTotalMarkup(), 0.01);
+    }
 }
