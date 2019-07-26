@@ -22,7 +22,7 @@ public class Shop {
         this.stock.add(item);
     }
 
-    public void removeStocke(Sell item){
+    public void removeStock(Sell item){
         this.stock.remove(item);
     }
 }
