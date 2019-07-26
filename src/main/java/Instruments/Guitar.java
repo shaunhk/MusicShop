@@ -1,13 +1,15 @@
 package Instruments;
 
-import Instruments.Enums.*;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 
 public class Guitar extends Instrument {
 
     private int strings;
 
-    public Guitar(double sellingprice, double buyingprice, InstrumentType type, InstrumentColour colour, InstrumentMake make, int strings) {
-        super(sellingprice, buyingprice, type, colour, make);
+    public Guitar(double sellingPrice, double buyingprice, InstrumentType type, InstrumentColour colour, InstrumentMake make, int strings) {
+        super(sellingPrice, buyingprice, type, colour, make);
         this.strings = strings;
     }
 

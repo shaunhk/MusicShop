@@ -1,7 +1,9 @@
 package InstrumentsTest;
 
-import Instruments.Enums.*;
 import Instruments.Guitar;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,18 +20,18 @@ public class GuitarTest {
 
     @Test
     public void canGetSellingPrice() {
-        assertEquals(100, guitar.getSellingprice(), 0.01);
+        assertEquals(100, guitar.getSellingPrice(), 0.01);
     }
 
     @Test
     public void canGetBuyingPrice() {
-        assertEquals(30, guitar.getBuyingprice(), 0.01);
+        assertEquals(30, guitar.getBuyingPrice(), 0.01);
     }
 
     @Test
     public void canSetBuyingPrice() {
-        guitar.setBuyingprice(120.33);
-        assertEquals(120.33, guitar.getBuyingprice(), 0.01);
+        guitar.setBuyingPrice(120.33);
+        assertEquals(120.33, guitar.getBuyingPrice(), 0.01);
     }
 
     @Test

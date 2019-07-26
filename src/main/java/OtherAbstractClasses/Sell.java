@@ -2,27 +2,27 @@ package OtherAbstractClasses;
 
 public abstract class Sell {
 
-    private double sellingprice;
-    private double buyingprice;
+    private double sellingPrice;
+    private double buyingPrice;
 
-    public Sell(double sellingprice, double buyingprice){
-        this.sellingprice = sellingprice;
-        this.buyingprice = buyingprice;
+    public Sell(double sellingPrice, double buyingPrice){
+        this.sellingPrice = sellingPrice;
+        this.buyingPrice = buyingPrice;
     }
 
-    public double getSellingprice() {
-        return sellingprice;
+    public double getSellingPrice() {
+        return sellingPrice;
     }
 
-    public double getBuyingprice() {
-        return buyingprice;
+    public double getBuyingPrice() {
+        return buyingPrice;
     }
 
-    public void setBuyingprice(double buyingprice) {
-        this.buyingprice = buyingprice;
+    public void setBuyingPrice(double buyingPrice) {
+        this.buyingPrice = buyingPrice;
     }
 
     public double getProfit(){
-        return this.sellingprice - this.buyingprice;
+        return this.sellingPrice - this.buyingPrice;
     }
 }

@@ -1,6 +1,8 @@
 package Instruments;
 
-import Instruments.Enums.*;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 
 public class Drums extends Instrument {
 

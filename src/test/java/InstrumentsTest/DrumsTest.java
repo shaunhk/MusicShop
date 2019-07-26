@@ -1,9 +1,9 @@
 package InstrumentsTest;
 
 import Instruments.Drums;
-import Instruments.Enums.InstrumentColour;
-import Instruments.Enums.InstrumentMake;
-import Instruments.Enums.InstrumentType;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,19 +19,19 @@ public class DrumsTest {
     }
 
     @Test
-    public void getSellingprice() {
-        assertEquals(150, drums.getSellingprice(), 0.01);
+    public void getSellingPrice() {
+        assertEquals(150, drums.getSellingPrice(), 0.01);
     }
 
     @Test
-    public void getBuyingprice() {
-        assertEquals(40, drums.getBuyingprice(), 0.01);
+    public void getBuyingPrice() {
+        assertEquals(40, drums.getBuyingPrice(), 0.01);
     }
 
     @Test
-    public void setBuyingprice() {
-        drums.setBuyingprice(130.25);
-        assertEquals(130.25, drums.getBuyingprice(), 0.01);
+    public void setBuyingPrice() {
+        drums.setBuyingPrice(130.25);
+        assertEquals(130.25, drums.getBuyingPrice(), 0.01);
     }
 
     @Test

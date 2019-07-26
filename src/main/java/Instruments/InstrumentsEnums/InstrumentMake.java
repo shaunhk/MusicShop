@@ -1,4 +1,4 @@
-package Instruments.Enums;
+package Instruments.InstrumentsEnums;
 
 public enum InstrumentMake {
 

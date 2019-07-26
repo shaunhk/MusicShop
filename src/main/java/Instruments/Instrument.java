@@ -1,9 +1,9 @@
 package Instruments;
 
 import Behaviours.IPlay;
-import Instruments.Enums.InstrumentColour;
-import Instruments.Enums.InstrumentMake;
-import Instruments.Enums.InstrumentType;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 import OtherAbstractClasses.Sell;
 
 public abstract class Instrument extends Sell implements IPlay {
@@ -12,8 +12,8 @@ public abstract class Instrument extends Sell implements IPlay {
     private InstrumentColour colour;
     private InstrumentMake make;
 
-    public Instrument(double sellingprice, double buyingprice, InstrumentType type, InstrumentColour colour, InstrumentMake make) {
-        super(sellingprice, buyingprice);
+    public Instrument(double sellingPrice, double buyingPrice, InstrumentType type, InstrumentColour colour, InstrumentMake make) {
+        super(sellingPrice, buyingPrice);
         this.type = type;
         this.colour = colour;
         this.make = make;

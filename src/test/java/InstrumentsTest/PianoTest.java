@@ -1,7 +1,9 @@
 package InstrumentsTest;
 
-import Instruments.Enums.*;
 import Instruments.Piano;
+import Instruments.InstrumentsEnums.InstrumentColour;
+import Instruments.InstrumentsEnums.InstrumentMake;
+import Instruments.InstrumentsEnums.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,19 +19,19 @@ public class PianoTest {
     }
 
     @Test
-    public void getSellingprice() {
-        assertEquals(999.99, piano.getSellingprice(), 0.01);
+    public void getSellingPrice() {
+        assertEquals(999.99, piano.getSellingPrice(), 0.01);
     }
 
     @Test
-    public void getBuyingprice() {
-        assertEquals(500, piano.getBuyingprice(), 0.01);
+    public void getBuyingPrice() {
+        assertEquals(500, piano.getBuyingPrice(), 0.01);
     }
 
     @Test
-    public void setBuyingprice() {
-        piano.setBuyingprice(1200);
-        assertEquals(1200, piano.getBuyingprice(), 0.01);
+    public void setBuyingPrice() {
+        piano.setBuyingPrice(1200);
+        assertEquals(1200, piano.getBuyingPrice(), 0.01);
     }
 
     @Test
