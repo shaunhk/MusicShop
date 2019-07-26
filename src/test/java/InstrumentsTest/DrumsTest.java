@@ -15,7 +15,7 @@ public class DrumsTest {
 
     @Before
     public void setUp() {
-        drums = new Drums(150, 40, InstrumentType.PERCUSSION, InstrumentColour.WHITE, InstrumentMake.FENDER, 12);
+        drums = new Drums(150, 40, InstrumentColour.WHITE, InstrumentMake.FENDER, 12);
     }
 
     @Test

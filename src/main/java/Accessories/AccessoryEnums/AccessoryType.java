@@ -1,4 +1,7 @@
 package Accessories.AccessoryEnums;
 
-public class AccessoryType {
+public enum AccessoryType {
+
+    GUITARSTRINGS,
+    SHEETMUSIC;
 }

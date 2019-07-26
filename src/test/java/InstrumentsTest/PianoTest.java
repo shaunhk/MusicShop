@@ -15,7 +15,7 @@ public class PianoTest {
 
     @Before
     public void setUp() throws Exception {
-        piano = new Piano(999.99, 500, InstrumentType.STRING, InstrumentColour.BLACK, InstrumentMake.YAMAHA, 60);
+        piano = new Piano(999.99, 500, InstrumentColour.BLACK, InstrumentMake.YAMAHA, 60);
     }
 
     @Test

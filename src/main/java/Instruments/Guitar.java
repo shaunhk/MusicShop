@@ -7,9 +7,11 @@ import Instruments.InstrumentsEnums.InstrumentType;
 public class Guitar extends Instrument {
 
     private int strings;
+    private InstrumentType type;
 
-    public Guitar(double sellingPrice, double buyingprice, InstrumentType type, InstrumentColour colour, InstrumentMake make, int strings) {
-        super(sellingPrice, buyingprice, type, colour, make);
+    public Guitar(double sellingPrice, double buyingPrice, InstrumentColour colour, InstrumentMake make, int strings) {
+        super(sellingPrice, buyingPrice, colour, make);
+        this.type = InstrumentType.STRING;
         this.strings = strings;
     }
 
